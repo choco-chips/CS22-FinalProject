@@ -3,9 +3,9 @@ public class AssassinNode {
     //Assassin: player name, killer name, and reference to next node.
 
     //Instance variables
-    public String data; // name stored in node
-    public AssassinNode front; // front of the list
-    public AssassinNode next; // link to next node
+    private String data; // name stored in node
+    private AssassinNode front; // front of the list
+    private AssassinNode next; // link to next node
     public AssassinNode(String name) { // constructor; what a node consists of
         this.data = name;
         this.next = null;

@@ -17,8 +17,9 @@ public class AssassinMain {
 //            for(String i : names) { // debug; check if file was read and print contents
 //                System.out.println(i);
 //            }
-            AssassinManager manager = new AssassinManager();
-            manager.AssassinManager(names);
+
+
+
         } catch(FileNotFoundException e) {
             System.out.println("File not found");
         }
